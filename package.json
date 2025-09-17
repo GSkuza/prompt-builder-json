@@ -1,0 +1,31 @@
+{
+  "name": "prompt-builder-json",
+  "version": "1.0.0",
+  "description": "Interaktywna aplikacja do budowania ustrukturyzowanych promptów w formacie JSON",
+  "main": "src/PromptBuilder.jsx",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx serve"
+  },
+  "keywords": [
+    "prompt",
+    "json",
+    "builder",
+    "ai",
+    "prompt-engineering",
+    "react",
+    "tailwind"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/[twoja-nazwa-uzytkownika]/prompt-builder-json.git"
+  },
+  "homepage": "https://[twoja-nazwa-uzytkownika].github.io/prompt-builder-json/",
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "lucide-react": "^0.263.0"
+  }
+}

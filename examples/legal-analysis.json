@@ -1,0 +1,37 @@
+{
+  "id": "prompt_legal_001",
+  "role": "user",
+  "instruction": "Przeanalizuj podany przepis prawny i wyjaśnij jego zastosowanie w praktyce",
+  "context": "Dokument przeznaczony dla osób bez wykształcenia prawniczego, maksymalnie 2 akapity",
+  "expected_output": {
+    "format": "paragraph",
+    "style": "prostym językiem",
+    "length": "średnio (1 akapit)",
+    "include_sources": true
+  },
+  "constraints": {
+    "avoid": [
+      "żargon prawniczy",
+      "skomplikowane konstrukcje zdaniowe",
+      "łacińskie zwroty bez tłumaczenia"
+    ],
+    "must_include": [
+      "praktyczny przykład",
+      "najważniejsze konsekwencje",
+      "podstawa prawna"
+    ]
+  },
+  "metadata": {
+    "language": "pl",
+    "domain": "civil law",
+    "version": "1.0",
+    "epistemic": {
+      "reasoning_mode": "deterministic"
+    }
+  },
+  "audit": {
+    "fact_check_required": true,
+    "hallucination_guard": true,
+    "compliance_check": "zgodność z Kodeksem cywilnym"
+  }
+}

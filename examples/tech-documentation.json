@@ -1,0 +1,38 @@
+{
+  "id": "prompt_tech_002",
+  "role": "user",
+  "instruction": "Wygeneruj dokumentację techniczną dla podanej funkcji lub modułu",
+  "context": "Dokumentacja dla zespołu developerskiego, zgodna ze standardami firmy",
+  "expected_output": {
+    "format": "list",
+    "style": "specjalistycznie",
+    "length": "obszernie (raport)",
+    "include_sources": false
+  },
+  "constraints": {
+    "avoid": [
+      "nieprecyzyjne opisy",
+      "brak przykładów kodu",
+      "nieaktualne praktyki"
+    ],
+    "must_include": [
+      "opis parametrów",
+      "przykłady użycia",
+      "możliwe błędy",
+      "zwracane wartości"
+    ]
+  },
+  "metadata": {
+    "language": "en",
+    "domain": "software engineering",
+    "version": "2.0",
+    "epistemic": {
+      "reasoning_mode": "deterministic"
+    }
+  },
+  "audit": {
+    "fact_check_required": true,
+    "hallucination_guard": true,
+    "compliance_check": "zgodność z JSDoc/TSDoc"
+  }
+}
