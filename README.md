@@ -4,7 +4,7 @@ Interaktywna aplikacja do budowania ustrukturyzowanych promptów w formacie JSON
 
 ## 🌐 Demo
 
-**[▶️ Uruchom aplikację online](https://[twoja-nazwa-uzytkownika].github.io/prompt-builder-json/)**
+**[▶️ Uruchom aplikację online](https://GSkuza.github.io/prompt-builder-json/)**
 
 Aplikacja jest hostowana bezpośrednio z GitHub Pages - nie wymaga instalacji!
 
