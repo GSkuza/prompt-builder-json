@@ -133,7 +133,7 @@ prompt-builder-json/
 
 1. **Sklonuj repozytorium**
 ```bash
-git clone https://github.com/[twoja-nazwa-uzytkownika]/prompt-builder-json.git
+git clone https://github.com/GSkuza/prompt-builder-json/
 cd prompt-builder-json
 ```
 
@@ -175,10 +175,10 @@ Ten projekt jest dostępny na licencji MIT - zobacz plik [LICENSE](LICENSE) dla 
 
 ## 👤 Autor
 
-**[Twoje Imię]**
+**[Grzegorz Skuza]**
 
-- GitHub: [@twoja-nazwa-uzytkownika](https://github.com/twoja-nazwa-uzytkownika)
-- LinkedIn: [Twój profil](https://linkedin.com/in/twoj-profil)
+- GitHub: [@GSkuza](https://github.com/GSkuza/)
+- LinkedIn: [Grzegorz Skuza](https://www.linkedin.com/in/grzegorzskuza/)
 
 ## 🙏 Podziękowania
 
